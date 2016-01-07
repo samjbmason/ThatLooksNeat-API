@@ -7,7 +7,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "start": "node bin/fetch_issues"
+    "fetch_emails": "node bin/fetch_issues"
   },
   "repository": {
     "type": "git",
