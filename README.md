@@ -7,4 +7,5 @@ This is mostly just a fun little experiment to see if I could do it, and to play
 While I didn't benchmark them on speed, I noticed that the node version is slightly faster but as you can see there is alot more code compared to the ruby version. This could also be because I need to get better with JS.
 
 If anyone can see any improvements please shoot me a PR or submit an issue.
+
 Sam 🤖💻
