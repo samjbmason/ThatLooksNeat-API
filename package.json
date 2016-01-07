@@ -1,0 +1,24 @@
+{
+  "name": "thatlooksneat-api",
+  "version": "1.0.0",
+  "description": "A node script that will pull down latest issues of That Looks Neat and add to site",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samjbmason/thatlooksneat-api.git"
+  },
+  "author": "Sam Mason",
+  "license": "ISC",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/samjbmason/thatlooksneat-api/issues"
+  },
+  "homepage": "https://github.com/samjbmason/thatlooksneat-api#readme",
+  "devDependencies": {
+    "bluebird": "^3.1.1",
+    "dotenv": "^1.2.0",
+    "moment": "^2.11.0",
+    "request": "^2.67.0",
+    "request-promise": "^1.0.2"
+  }
+}
