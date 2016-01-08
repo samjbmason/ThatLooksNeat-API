@@ -1,5 +1,4 @@
 'use strict';
-require('dotenv').load();
 var req = require('request');
 var moment = require('moment');
 

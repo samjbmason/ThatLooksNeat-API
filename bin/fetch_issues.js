@@ -1,5 +1,5 @@
 'use strict';
-require('dotenv').load();
+require('dotenv').load({silent: true});
 var req = require('request');
 var getCampaigns = require('./get_campaigns');
 var fileExists = require('./check_file_exists');
