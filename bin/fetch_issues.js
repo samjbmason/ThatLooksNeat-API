@@ -1,6 +1,5 @@
 'use strict';
 require('dotenv').load({silent: true});
-var req = require('request');
 var getCampaigns = require('./get_campaigns');
 var fileExists = require('./check_file_exists');
 var createFile = require('./create_file');
@@ -29,5 +28,5 @@ Promise.all([getCampaigns(), fileExists()])
     }
 
   }, function(reason) {
-    // console.log(reason)
+    console.log(reason)
   });
