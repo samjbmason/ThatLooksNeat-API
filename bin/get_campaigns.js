@@ -11,7 +11,7 @@ module.exports = function() {
       qs: {
         type: 'regular',
         status: 'sent',
-        fields: 'campaigns.archive_url,campaigns.send_time',
+        fields: 'campaigns.archive_url,campaigns.send_time,campaigns.settings.subject_line',
         count: 2000
       },
       json: true,
