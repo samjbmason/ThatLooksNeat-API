@@ -1,7 +1,10 @@
 'use strict';
 var req = require('request');
 
-let fileEndpoint = `https://api.github.com/repos/${process.env.GH_USERNAME}/${process.env.GH_REPO}/contents/${process.env.GH_DATA_FILE}`
+let fileEndpoint = `https://api.github.com/repos/
+  ${process.env.GH_USERNAME}/
+  ${process.env.GH_REPO}/
+  ${process.env.GH_DATA_FILE}`
 
 let options = {
   uri: fileEndpoint,
